@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Демо-макет приложения MONO для личных финансов">
+<defs>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d3c3ed"/><stop offset="1" stop-color="#9781bd"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27243b"/><stop offset="1" stop-color="#141722"/></linearGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9a7f1"/><stop offset="1" stop-color="#7565aa"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#282041" flood-opacity=".36"/></filter>
+</defs>
+<rect width="800" height="520" fill="url(#background)"/>
+<circle cx="50" cy="30" r="230" fill="#fff" opacity=".13"/>
+<circle cx="729" cy="492" r="254" fill="#e6dfff" opacity=".23"/>
+<path d="M610 20 L730 30 L780 120" fill="none" stroke="#faf3ff" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+<text x="55" y="80" font-family="Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="3" fill="#39294d">MONO / 03</text>
+<text x="54" y="144" font-family="Arial,sans-serif" font-size="42" letter-spacing="-2" font-weight="800" fill="#362b55">Money, clear.</text>
+<text x="55" y="185" font-family="Arial,sans-serif" font-size="18" fill="#605178">Know where it goes.</text>
+<g transform="translate(490 50) rotate(12 115 231)" filter="url(#shadow)">
+ <rect width="226" height="454" rx="37" fill="#181a27"/>
+ <rect x="7" y="7" width="212" height="440" rx="31" fill="#f5f1fb"/>
+ <rect x="70" y="11" width="88" height="17" rx="9" fill="#181a27"/>
+ <text x="25" y="57" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#3d344e">9:41</text>
+ <text x="178" y="57" font-size="11" font-family="Arial,sans-serif" fill="#3d344e">•••</text>
+ <text x="25" y="106" font-size="27" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2" fill="#3d3451">Spending</text>
+ <text x="26" y="124" font-size="10" font-family="Arial,sans-serif" fill="#9386a3">SEPTEMBER OVERVIEW</text>
+ <rect x="20" y="148" width="186" height="147" rx="16" fill="#e1d9f0"/>
+ <circle cx="112" cy="221" r="50" fill="none" stroke="#baaed9" stroke-width="20"/>
+ <circle cx="112" cy="221" r="50" fill="none" stroke="#806fae" stroke-width="20" stroke-dasharray="191 320" transform="rotate(-90 112 221)"/>
+ <circle cx="112" cy="221" r="50" fill="none" stroke="#d2a6af" stroke-width="20" stroke-dasharray="68 320" stroke-dashoffset="-195" transform="rotate(-90 112 221)"/>
+ <text x="112" y="219" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="800" fill="#433655">$1,280</text>
+ <text x="112" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#877897">spent</text>
+ <text x="26" y="323" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#473d5d">Recent activity</text>
+ <circle cx="41" cy="349" r="13" fill="#d7c9e8"/>
+ <text x="41" y="354" text-anchor="middle" font-size="13" font-family="Arial,sans-serif" fill="#685583">✦</text>
+ <text x="62" y="347" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#443c55">Shopping</text>
+ <text x="62" y="362" font-size="9" font-family="Arial,sans-serif" fill="#a09aaa">Today</text>
+ <text x="179" y="354" text-anchor="end" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#443c55">−$68</text>
+ <rect x="26" y="378" width="172" height="1" fill="#d9cfe4"/>
+ <circle cx="41" cy="400" r="13" fill="#d7c9e8"/>
+ <text x="41" y="405" text-anchor="middle" font-size="13" font-family="Arial,sans-serif" fill="#685583">◎</text>
+ <text x="62" y="397" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#443c55">Coffee</text>
+ <text x="62" y="413" font-size="9" font-family="Arial,sans-serif" fill="#a09aaa">Yesterday</text>
+ <text x="179" y="404" text-anchor="end" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#443c55">−$12</text>
+</g>
+<g transform="translate(282 -71) rotate(-9 126 255)" filter="url(#shadow)">
+ <rect width="258" height="542" rx="42" fill="#171725"/>
+ <rect x="8" y="8" width="242" height="526" rx="35" fill="url(#screen)"/>
+ <rect x="80" y="12" width="97" height="17" rx="9" fill="#11121b"/>
+ <text x="28" y="60" font-size="12" font-family="Arial,sans-serif" font-weight="700" fill="#f3f1fc">9:41</text>
+ <text x="199" y="60" font-size="12" font-family="Arial,sans-serif" fill="#f3f1fc">•••</text>
+ <text x="27" y="116" font-size="37" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2.5" fill="#f0edf7">mono<tspan fill="#b4a2ed">.</tspan></text>
+ <text x="28" y="165" font-size="10" font-family="Arial,sans-serif" letter-spacing="1.3" fill="#aaa6be">TOTAL BALANCE</text>
+ <text x="25" y="211" font-size="41" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2.8" fill="#faf8fc">$24,680<tspan font-size="21" fill="#aaa6be">.50</tspan></text>
+ <rect x="21" y="240" width="216" height="151" rx="19" fill="url(#card)"/>
+ <text x="39" y="270" font-size="10" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.6" fill="#edeafa">OVERVIEW</text>
+ <path d="M38 357 L63 345 L86 352 L110 327 L130 337 L155 292 L176 301 L197 279 L218 288" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M38 357 L63 345 L86 352 L110 327 L130 337 L155 292 L176 301 L197 279 L218 288L218 374L38 374Z" fill="#fff" opacity=".12"/>
+ <text x="37" y="376" font-size="10" font-family="Arial,sans-serif" fill="#f4ecff">AUGUST</text>
+ <text x="217" y="376" font-size="10" font-family="Arial,sans-serif" text-anchor="end" fill="#f4ecff">SEPTEMBER</text>
+ <rect x="23" y="417" width="212" height="68" rx="15" fill="#303046"/>
+ <circle cx="53" cy="451" r="17" fill="#514969"/>
+ <text x="53" y="456" text-anchor="middle" font-size="15" font-family="Arial,sans-serif" fill="#ded1ff">↗</text>
+ <text x="81" y="446" font-size="12" font-family="Arial,sans-serif" font-weight="700" fill="#ebe9f3">Monthly insights</text>
+ <text x="81" y="465" font-size="10" font-family="Arial,sans-serif" fill="#9995b0">Your money, simplified</text>
+ <rect x="75" y="517" width="108" height="4" rx="2" fill="#7c798b"/>
+</g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Демо-макет приложения NORTH для путешествий">
+<defs>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bed2ee"/><stop offset="1" stop-color="#6a88b1"/></linearGradient>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a6d7e7"/><stop offset="1" stop-color="#f8d6a8"/></linearGradient>
+ <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5b8b9a"/><stop offset="1" stop-color="#345a70"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="20" stdDeviation="23" flood-color="#18354a" flood-opacity=".32"/></filter>
+ <clipPath id="photo"><rect x="20" y="125" width="223" height="254" rx="18"/></clipPath>
+</defs>
+<rect width="800" height="520" fill="url(#background)"/>
+<path d="M0 340 C110 245 230 370 346 280 S595 360 800 200V520H0Z" fill="#7099b7" opacity=".42"/>
+<path d="M0 443 C110 380 225 438 343 389 S620 470 800 337V520H0Z" fill="#486e90" opacity=".4"/>
+<circle cx="700" cy="70" r="160" fill="none" stroke="#f0f5f8" stroke-width="2" opacity=".36"/>
+<circle cx="700" cy="70" r="124" fill="none" stroke="#f0f5f8" stroke-width="2" opacity=".36"/>
+<text x="52" y="78" font-family="Arial,sans-serif" font-size="21" font-weight="800" letter-spacing="3" fill="#143c57">NORTH / 02</text>
+<text x="52" y="140" font-family="Arial,sans-serif" font-size="41" font-weight="800" letter-spacing="-2.5" fill="#123951">Go further.</text>
+<text x="53" y="180" font-family="Arial,sans-serif" font-size="18" fill="#31576d">Travel, reimagined.</text>
+<g transform="translate(484 78) rotate(11 115 217)" filter="url(#shadow)">
+ <rect width="229" height="444" rx="39" fill="#152b39"/>
+ <rect x="7" y="7" width="215" height="430" rx="32" fill="#ecf0f0"/>
+ <rect x="69" y="12" width="90" height="16" rx="9" fill="#152b39"/>
+ <text x="28" y="59" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#1f3643">9:41</text>
+ <text x="176" y="59" font-size="11" font-family="Arial,sans-serif" fill="#1f3643">•••</text>
+ <text x="25" y="102" font-size="25" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2" fill="#263d4a">Your next</text>
+ <text x="25" y="129" font-size="25" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2" fill="#263d4a">destination.</text>
+ <rect x="24" y="155" width="181" height="93" rx="14" fill="#bcd7dd"/>
+ <path d="M25 219 L68 177 L91 198 L114 165 L155 208 L180 185 L204 210V248H25Z" fill="#577e92"/>
+ <path d="M25 232 L67 207 L94 224 L147 199 L205 231V248H25Z" fill="#305d73"/>
+ <text x="35" y="270" font-size="11" font-family="Arial,sans-serif" fill="#7a8b93">POPULAR PLACES</text>
+ <rect x="24" y="284" width="181" height="64" rx="12" fill="#fff"/>
+ <rect x="32" y="291" width="54" height="50" rx="8" fill="#c0cfb5"/>
+ <path d="M32 327 L52 299 L65 315 L79 304 L86 326V341H32Z" fill="#6e8b84"/>
+ <text x="96" y="311" font-size="13" font-family="Arial,sans-serif" font-weight="700" fill="#254253">Norway</text>
+ <text x="96" y="331" font-size="10" font-family="Arial,sans-serif" fill="#8297a3">Explore the north</text>
+ <rect x="24" y="359" width="181" height="49" rx="12" fill="#d9e6e6"/>
+ <text x="39" y="389" font-size="12" font-family="Arial,sans-serif" font-weight="700" fill="#4b6c78">✳  Saved journeys</text>
+</g>
+<g transform="translate(280 -43) rotate(-10 124 265)" filter="url(#shadow)">
+ <rect width="256" height="527" rx="41" fill="#173142"/>
+ <rect x="8" y="8" width="240" height="511" rx="34" fill="#f5f5f2"/>
+ <rect x="79" y="11" width="98" height="18" rx="10" fill="#173142"/>
+ <text x="30" y="58" font-size="12" font-family="Arial,sans-serif" font-weight="700" fill="#e7f0ee">9:41</text>
+ <g clip-path="url(#photo)">
+  <rect x="20" y="125" width="223" height="254" rx="18" fill="url(#sky)"/>
+  <circle cx="181" cy="161" r="38" fill="#ffdf9e" opacity=".84"/>
+  <path d="M14 349 L80 211 L119 279 L151 207 L250 345V399H14Z" fill="#8db4bf"/>
+  <path d="M14 359 L76 253 L111 308 L174 231 L250 341V399H14Z" fill="url(#mountain)"/>
+  <path d="M14 370 L70 327 L118 348 L160 300 L250 346V399H14Z" fill="#2c566c"/>
+ </g>
+ <text x="26" y="109" font-size="37" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-2.8" fill="#234459">north<tspan fill="#8aaba3">.</tspan></text>
+ <text x="39" y="322" font-size="11" font-family="Arial,sans-serif" font-weight="700" fill="#fff" letter-spacing="1.5">DISCOVER</text>
+ <text x="39" y="351" font-size="29" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-1.5" fill="#fff">The Alps</text>
+ <rect x="20" y="399" width="216" height="69" rx="16" fill="#edf1ef"/>
+ <text x="34" y="420" font-size="10" font-family="Arial,sans-serif" font-weight="700" letter-spacing="1" fill="#8a999d">YOUR JOURNEY</text>
+ <text x="34" y="446" font-size="17" font-family="Arial,sans-serif" font-weight="800" letter-spacing="-.5" fill="#294a58">Adventure awaits</text>
+ <circle cx="205" cy="434" r="17" fill="#214b5d"/>
+ <text x="205" y="440" font-size="18" font-family="Arial,sans-serif" text-anchor="middle" fill="#fff">↗</text>
+ <rect x="72" y="501" width="110" height="4" rx="2" fill="#b9c7c9"/>
+</g>
+</svg>
